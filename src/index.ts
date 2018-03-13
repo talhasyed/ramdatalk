@@ -20,14 +20,13 @@ const usersFromApi = require("./users.json");
 
 // 30s - TODO make it take an arbitrary age range
 const is30Plus = ({ age }) => age >= 30;
-// same as const isAbove30 = (user) => user.age > 30;
+// const is30Plus = user => user.age >= 30;
 const in30sUsers = filter(is30Plus);
 
-// fulltimers - TODO add non-fulltimers
+// fulltimers
 const isPropTrue = prop => propSatisfies(equals(true), prop);
-const isPropFalse = prop => complement(isPropTrue);
 const isFullTime = isPropTrue("fulltime");
-const isNotFulltime = isPropFalse("fulltime");
+const isNotFulltime = complement(isFullTime);
 const fullTimers = filter(isFullTime);
 const nonFulltimers = filter(isNotFulltime);
 
@@ -39,9 +38,8 @@ const usersWithLanguage = language => filter(userKnowsLanguage(language));
 
 const resultQuery = compose(
   // usersWithLanguage("golang"),
-  fullTimers
-  // in30sUsers
-  // nonFulltimers
+  // fullTimers
+  in30sUsers
 );
 
 const filteredUsers = resultQuery(usersFromApi);
