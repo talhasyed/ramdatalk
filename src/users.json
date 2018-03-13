@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Adam Hijleh",
+    "age": 27,
+    "languages": [
+      "BLOCKCHAIN",
+      "javascript",
+      "typescript",
+      "ruby",
+      "scala",
+      "golang"
+    ],
+    "fulltime": true
+  },
+  {
+    "id": 2,
+    "name": "Talha Syed",
+    "age": 34,
+    "languages": ["javascript", "typescript", "ruby", "elixir"],
+    "fulltime": true
+  },
+  {
+    "id": 3,
+    "name": "Andy Su",
+    "age": 21,
+    "languages": ["javascript", "typescript", "ruby"],
+    "fulltime": false
+  },
+  {
+    "id": 4,
+    "name": "Petre Neytchev",
+    "age": 36,
+    "languages": ["typescript", "ruby", "golang", "c"],
+    "fulltime": true
+  },
+  {
+    "id": 5,
+    "name": "Fancis San Juan",
+    "age": 29,
+    "languages": ["javascript", "ruby", "typescript"],
+    "fulltime": true
+  },
+  {
+    "id": 6,
+    "name": "Mike M",
+    "age": 30,
+    "languages": ["python", "ruby"],
+    "fulltime": true
+  },
+  {
+    "id": 7,
+    "name": "Michael Tanus",
+    "age": 21,
+    "languages": ["python", "ruby"],
+    "fulltime": false
+  }
+]

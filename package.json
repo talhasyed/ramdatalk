@@ -1,0 +1,19 @@
+{
+  "name": "rambda-talk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "app": "node index.js"
+  },
+  "author": "Talha Syed",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.7",
+    "jest": "^22.4.2"
+  }
+}
