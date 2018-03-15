@@ -39,7 +39,7 @@ const sortByNameReversed = compose(reverse, sortByName);
 // Construct the function that extracts the users
 const resultQuery = compose(
   sortByNameReversed,
-  usersWithLanguage("golang"),
+  // usersWithLanguage("golang"),
   fullTimers,
   in30sUsers
 );
