@@ -6,14 +6,14 @@ const usersFromApi = require("./users.json");
 const is30Plus = ({ age }) => age >= 30;
 const in30sUsers = filter(is30Plus);
 
+//
+// ~~~NEW STUFF FOLLOWS~~
+//
+
 // fulltimers
 const isPropTrue = prop => propSatisfies(equals(true), prop);
 const isFullTime = isPropTrue("fulltime");
 const fullTimers = filter(isFullTime);
-
-//
-// ~~~NEW STUFF FOLLOWS~~
-//
 
 // Construct the function that extracts the users
 const resultQuery = compose(fullTimers, in30sUsers);
