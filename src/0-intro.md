@@ -9,7 +9,7 @@ The primary distinguishing features of Ramda are:
 
 ### Currying
 
-```
+```javascript
 const fullName = (lastName) => (firstName) => `${firstName} ${lastName}`
 
 const withLastName = (lastName) => fullName(lastName);
