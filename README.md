@@ -6,12 +6,16 @@ In this talk will start with a very brief intro to Ramdajs before we delve into 
 
 ## Setup
 
-Please have `typescript` and `ts-node` installed by your preferred Node package manager.
+Please install `typescript` and `ts-node` with your preferred Node package manager.
+
+## Running the examples
 
 To execute the examples, run:
 
 ```
 ts-node/src/1-in30s.ts
+ts-node/src/2.1-fullTimers.ts
+...
 ```
 
 And so on.
