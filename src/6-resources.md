@@ -1,3 +1,6 @@
+**Point Free Functions**
+http://lucasmreis.github.io/blog/pointfree-javascript/
+
 **Ramdajs Homepage**
 http://ramdajs.com/
 
