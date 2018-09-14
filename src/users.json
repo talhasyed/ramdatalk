@@ -1,58 +1,51 @@
 [
   {
     "id": 1,
-    "name": "Adam Hijleh",
-    "age": 27,
-    "languages": [
-      "BLOCKCHAIN",
-      "javascript",
-      "typescript",
-      "ruby",
-      "scala",
-      "golang"
-    ],
-    "fulltime": true
+    "name": "Roman Lyashov",
+    "age": 35,
+    "languages": ["javascript", "python", "c#"],
+    "fulltime": false
   },
   {
     "id": 2,
     "name": "Talha Syed",
     "age": 34,
-    "languages": ["javascript", "typescript", "ruby", "elixir"],
+    "languages": ["javascript", "ruby", "elixir", "java"],
     "fulltime": true
   },
   {
     "id": 3,
-    "name": "Andy Su",
-    "age": 21,
-    "languages": ["javascript", "typescript", "ruby"],
-    "fulltime": false
-  },
-  {
-    "id": 4,
-    "name": "Petre Neytchev",
-    "age": 36,
-    "languages": ["typescript", "ruby", "golang", "c"],
+    "name": "Anujan P",
+    "age": 24,
+    "languages": ["javascript", "ruby", "elixir"],
     "fulltime": true
   },
   {
+    "id": 4,
+    "name": "Sathish Balaji",
+    "age": 34,
+    "languages": ["java", "javascript", "php"],
+    "fulltime": false
+  },
+  {
     "id": 5,
-    "name": "Fancis San Juan",
-    "age": 29,
-    "languages": ["javascript", "ruby", "typescript"],
+    "name": "Ashwin",
+    "age": 31,
+    "languages": ["javascript", "perl", "c++", "python", "java"],
     "fulltime": true
   },
   {
     "id": 6,
-    "name": "Mike M",
-    "age": 30,
-    "languages": ["python", "ruby"],
-    "fulltime": true
+    "name": "Farjad Abbas",
+    "age": 23,
+    "languages": ["javascript", "swift"],
+    "fulltime": false
   },
   {
     "id": 7,
-    "name": "Michael Tanus",
-    "age": 21,
-    "languages": ["python", "ruby"],
-    "fulltime": false
+    "name": "Ben Liang",
+    "age": 29,
+    "languages": ["javascript", "ruby"],
+    "fulltime": true
   }
 ]
