@@ -11,8 +11,8 @@ Please install `typescript` and `ts-node` with your preferred Node package manag
 To execute the examples, run:
 
 ```
-ts-node/src/1-in30s.ts
-ts-node/src/2.1-fullTimers.ts
+ts-node src/1-in30s.ts
+ts-node src/2.1-fullTimers.ts
 ...
 ```
 
