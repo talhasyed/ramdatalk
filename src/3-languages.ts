@@ -32,7 +32,7 @@ const usersWithLanguage = language => filter(userKnowsLanguage(language));
 
 // Construct the function that extracts the users
 const resultQuery = compose(
-  usersWithLanguage("golang"),
+  usersWithLanguage("c++"),
   fullTimers,
   in30sUsers
 );

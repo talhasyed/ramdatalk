@@ -34,7 +34,10 @@ const usersWithLanguage = language => filter(userKnowsLanguage(language));
 
 // sort by Name (Desc)
 const sortByName = sortBy(prop("name"));
-const sortByNameReversed = compose(reverse, sortByName);
+const sortByNameReversed = compose(
+  reverse,
+  sortByName
+);
 
 // Construct the function that extracts the users
 const resultQuery = compose(
@@ -52,7 +55,10 @@ const filteredUsers = resultQuery(usersFromApi);
 
 // Format output to looks like: {all: [], byId: {}}
 const extractUserId = prop("id");
-const uniqueUserIds = compose(uniq, map(extractUserId));
+const uniqueUserIds = compose(
+  uniq,
+  map(extractUserId)
+);
 const userById = indexBy(extractUserId);
 
 const response = {

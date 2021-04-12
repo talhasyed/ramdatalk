@@ -16,7 +16,10 @@ const isFullTime = isPropTrue("fulltime");
 const fullTimers = filter(isFullTime);
 
 // Construct the function that extracts the users
-const resultQuery = compose(fullTimers, in30sUsers);
+const resultQuery = compose(
+  fullTimers,
+  in30sUsers
+);
 
 const filteredUsers = resultQuery(usersFromApi);
 console.log(JSON.stringify(filteredUsers));
